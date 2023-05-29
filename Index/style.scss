@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: white;
+    margin: 50px;
+    padding: 50px;
+    background-image: radial-gradient(circle, #161616, #171421, #19112a, #1c0d33, #21063b);
+    
+  }
+  
+
+  .titulo-principal {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    font-family: 'Sono', sans-serif;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Sono', sans-serif;
+    font-weight: 200;
+}
+
+  
+  label {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* ou a altura desejada */
+  }
+
+  input[type="text"],
+  textarea {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 50%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    color: black;
+    display: flex;
+  }
+  
+  input[type="button"] {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fb3cf1;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  input[type="button"]:hover {
+    background-color: #f487ee;
+  }
+
+.imgP {
+  width: 30%;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+}
